@@ -13,10 +13,16 @@
 
 APP_PACKAGE = 'com.ss.android.ugc.aweme'
 
-ACT_MAIN = 'com.ss.android.ugc.aweme.main.MainActivity'
-
 ACT_AD = ''
+ACT_MAIN = 'com.ss.android.ugc.aweme.main.MainActivity'
+ACT_SEARCH_RESULT = 'com.ss.android.ugc.aweme.search.activity.SearchResultActivity'
+ACT_USER_PROFILE = 'com.ss.android.ugc.aweme.profile.ui.UserProfileActivity'
+ACT_LIVE_DETAIL = 'com.ss.android.ugc.aweme.detail.ui.LiveDetailActivity'
 
 SUCCESS = 0
 
+ERROR_ACTION_PARAMS = 10
+
 LAUNCH_ERROR = 100
+
+SEARCH_ERROR = 200

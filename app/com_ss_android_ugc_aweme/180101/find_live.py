@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 """
-@File    :   find_user.py    
+@File    :   find_live.py
 @Contact :   379327479@qq.com
 @License :   MIT
 
@@ -27,7 +27,7 @@ def main(device: Device, params: str):
         return constant.ERROR_ACTION_PARAMS
     if search_common.search_keyword(device, main_find_button_id, search_input_edittext_id, keyword,
                                     search_search_button_id, search_horizontal_scroll_id):
-        if search_common.search_user_result(device, search_user_xpath, search_user_first_select_xpath):
+        if search_common.search_live_result(device, search_live_xpath, search_live_first_select_xpath):
             return constant.SUCCESS
     else:
         return constant.SEARCH_ERROR
