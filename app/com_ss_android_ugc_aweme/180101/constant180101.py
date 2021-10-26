@@ -19,3 +19,9 @@ search_user_xpath = '//*[@resource-id="com.ss.android.ugc.aweme:id/kv7"]/android
 search_user_first_select_xpath = '//*[@resource-id="com.ss.android.ugc.aweme:id/f47"]/android.widget.FrameLayout[1]'
 search_live_xpath = '//*[@resource-id="com.ss.android.ugc.aweme:id/kv7"]/android.widget.LinearLayout[1]/androidx.appcompat.app.a-b[5]'
 search_live_first_select_xpath = '//*[@resource-id="com.ss.android.ugc.aweme:id/f47"]/android.view.ViewGroup[1]'
+
+live_comment_click_id = 'com.ss.android.ugc.aweme:id/csu'
+live_comment_layout_id = 'com.ss.android.ugc.aweme:id/ems'
+live_comment_submit_id = 'com.ss.android.ugc.aweme:id/ju+'
+live_gift_click_id = ''
+live_fans_click_id = ''
