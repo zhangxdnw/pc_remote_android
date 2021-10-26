@@ -47,3 +47,8 @@ def live_do_gift() -> bool:
 
 def live_do_fans() -> bool:
     return False
+
+
+def live_quit(device: Device, quite_id: str) -> bool:
+    device(resourceId=quite_id).click(timeout=1)
+    return True
