@@ -46,5 +46,13 @@ def activity_window(device: Device, activity: str) -> list:
     return wins.output.strip().split('\n')
 
 
+def stop_app(device: Device, package: str):
+    device.app_stop(package)
+
+
+def stop_all(device: Device):
+    device.app_stop_all()
+
+
 if __name__ == '__main__':
     print(list_all_devices())

@@ -18,6 +18,7 @@ from uiautomator2 import Device
 from app.com_ss_android_ugc_aweme import constant
 from app.com_ss_android_ugc_aweme.common import search_common
 
+sys.path.append('app/com_ss_android_ugc_aweme/180101')
 from constant180101 import *
 
 

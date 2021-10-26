@@ -48,7 +48,8 @@ def do_action(device: str, package: str, action: str, extras: str):
             default_file = importlib.import_module(abs_path2.replace(os.sep, '.'))
             return default_file.main(phone, extras)
     else:
-        return 0
+        version_file = importlib.import_module(abs_path1.replace(os.sep, '.'))
+        return version_file.main(phone, extras)
 
 
 def main():
