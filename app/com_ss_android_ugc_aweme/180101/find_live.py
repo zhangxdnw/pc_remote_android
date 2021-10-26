@@ -10,6 +10,7 @@
 ------------      -------    --------    -----------
 2021/10/25 17:43   zxd        1.0         None
 """
+import sys
 
 import uiautomator2 as u2
 
