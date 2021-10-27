@@ -15,8 +15,13 @@ import time
 from uiautomator2 import Device
 
 
-def check_params(params: str) -> str:
+def check_comment_params(params: str) -> str:
     return eval(params)['comment']
+
+
+def check_gift_params(params: str) -> (int, int, int):
+    params_dict = eval(params)
+    return params_dict['type'], params_dict['page'], params_dict['index']
 
 
 def live_do_comment(device: Device, click_id: str, layout_id: str, comment: str, submit_id: str) -> bool:
@@ -41,7 +46,8 @@ def live_do_like() -> bool:
     return False
 
 
-def live_do_gift() -> bool:
+def live_do_gift(device: Device, gift_click_id: str, gift_view_id: str, gift_type_click_xpath: str,
+                 page: int, gift_select_view_id: str, index: int, gift_send_id: str, gift_success_view_id: str) -> bool:
     return False
 
 
