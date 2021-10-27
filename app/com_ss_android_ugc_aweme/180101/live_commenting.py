@@ -23,7 +23,7 @@ from constant180101 import *
 
 
 def main(device: Device, params: str):
-    comment = live_common.check_params(params)
+    comment = live_common.check_comment_params(params)
     if not comment:
         return constant.ERROR_ACTION_PARAMS
 
